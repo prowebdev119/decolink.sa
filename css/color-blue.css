@@ -1,0 +1,123 @@
+
+/* 
+    Here you can change default template color
+*/
+
+.search-submit,
+.wpcf7 .wpcf7-submit,
+.footer-social-icons li a:hover,
+.newsletter .submit,
+.post-list .blog-post .post-date .month,
+.post-single .blog-post .post-date .month,
+.blog-posts .pagination li.active,
+.blog-posts .pagination li:hover,
+.scroll-up:hover,
+.pixely_widget_sharre .box .share:hover,
+.nivo-wrapper .nivo-directionNav a:hover,
+.blog-post.isotope-item .post-category a:hover,
+.comment-reply,
+.service-feature-box .service-media:hover a,
+.owl-carousel:hover .owl-controls .owl-nav .owl-prev:hover,
+.owl-carousel:hover .owl-controls .owl-nav .owl-next:hover,
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span,
+.btn,
+.events-table .event-date .month,
+.accordion .title.active::after,
+.accordion .title:hover::after,
+.tracking .submit,
+.pi-latest-posts02 .post-date .month,
+.shipping-quote .submit,
+.custom-heading::after,
+.custom-heading02:after,
+.service-item-container figcaption h1:after,
+.service-item-container figcaption h2:after,
+.service-item-container figcaption h3:after,
+.service-item-container figcaption h4:after,
+.service-item-container figcaption h5:after,
+.gallery-item-container figcaption h1:after,
+.gallery-item-container figcaption h2:after,
+.gallery-item-container figcaption h3:after,
+.gallery-item-container figcaption h4:after,
+.gallery-item-container figcaption h5:after,
+.hover-details:hover span,
+.team-details:after,
+.hover-mask-container .hover-zoom:hover,
+.tabs li.active,
+.numbers-counter .counter-container::after,
+.master-slider .pi-button:hover,
+.master-slider .tooltip h6::after,
+.ms-skin-default .ms-tooltip-point .ms-point-center{  
+  background-color: #006db7;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus,
+.breadcrumb li a:hover,
+.colored,
+.footer-widget-container a:hover,
+.copyright-container a:hover,
+.blog-post .post-body a:hover h3,
+a.read-more span,
+.rpw_posts_widget ul > li::before,
+.rpw_posts_widget li a:hover h4,
+.post-footer .post-meta li.comments:hover,
+.comment-meta .date,
+a.download-link:hover span,
+.widget_nav_menu .menu-item.current-menu-item a,
+.company-timeline .icon-date-container i,
+.pi-latest-posts a:hover h4,
+.pi-latest-posts02 li .post-details a:hover h4,
+.header-style02 #quick-links li i,
+.header-style02 .navbar-default .navbar-nav>li>a:hover, 
+.header-style02 .nav > li.current-menu-item > a,
+.header-style01 #quick-links li i,
+.header-style01 #quick-links li a:hover,
+.header-style02 #top-bar-wrapper.dark #quick-links li a:hover,
+.header-wrapper.dark .navbar-default .navbar-nav>li.current-menu-item>a,
+.header-style03 #quick-links i,
+.header-style03 .navbar-nav>li>a:hover,
+.header-style03 .navbar-nav>li.current-menu-item>a,
+.custom-bkg.dark a:hover,
+.custom-bkg.dark a:hover span,
+.custom-bkg.dark a:hover i,
+.blog-post.isotope-item .post-date i,
+.fa-ul li i,
+.text-base-color02,
+.pi-latest-posts .post-date i,
+.pi-latest-posts02 .post-category i,
+.accordion .title::before,
+.pi-latest-posts03 li .post-media i,
+.news-carousel-container .icon-title i{
+    color: #006db7;
+}
+
+.header-style01 .navbar-default .navbar-nav>li>a:hover,
+.header-style01 .nav > li.current-menu-item > a,
+.hover-mask-container .hover-details span,
+.hover-mask-container .hover-zoom,
+.master-slider .pi-button{
+    border-color: #006db7;
+}
+
+.dropdown .dropdown-menu .dropdown-submenu > a:hover:after,
+blockquote{
+    border-left-color: #006db7;
+}
+
+/* Lighter base 01 */
+.search-submit:hover,
+.wpcf7 .wpcf7-submit:hover,
+.newsletter .submit:hover,
+.comment-reply:hover,
+.service-feature-box .service-media:hover i,
+.btn:hover,
+.tracking .submit:hover,
+.shipping-quote .submit:hover{
+    background-color: #0275c4;
+}
+
+
+.icon-container .st1{
+    fill: #006db7;
+}
+

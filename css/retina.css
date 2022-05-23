@@ -1,0 +1,64 @@
+/*
+    Retina ready styles
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5){
+    .accordion.careers .title::after{
+        background-image: url('../img/accordion-closed@2x.png');
+        background-size: 15px 10px;
+    }
+
+    .accordion.careers .title.active::after{
+        background-image: url('../img/accordion-opened@2x.png');
+        background-size: 15px 10px;
+    }
+
+    .accordion.careers .title:hover::after{
+        background-image: url('../img/accordion-opened@2x.png');
+        background-size: 15px 10px;
+    }
+    
+    .widget ul > li{
+       
+        background-size: 7px 10px;
+    }
+    
+    .tracking .submit{
+        background-image: url('../img/tracking-arrow@2x.png');
+        background-size: 7px 10px;
+    }
+    
+    .events-slider .nivo-caption{
+        background-image: url('../img/nivo-events@2x.png');
+        background-size: 34px 37px;
+    }
+    
+    .nivo-nextNav{
+        background-image: url('../img/nivo-next-nav@2x.png');
+        background-size: 8px 12px;
+    }
+    
+    .nivo-prevNav{
+        background-image: url('../img/nivo-prev-nav@2x.png');
+        background-size: 8px 12px;
+    }
+    
+    .widget_search .search-submit,
+    .search-submit{
+        background-image: url('../img/search@2x.png');
+        background-size: 14px 13px;
+    }
+    
+    .newsletter .submit{
+        background-image: url('../img/subscribe@2x.png');
+        background-size: 13px 11px;
+    }
+    
+    .scroll-up {
+        background-image: url('../img/to-top@2x.png');
+        background-size: 40px 40px;
+    }
+}
+

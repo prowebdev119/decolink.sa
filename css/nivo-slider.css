@@ -1,0 +1,205 @@
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* The Nivo Slider styles */
+.nivoSlider {
+    position:relative;
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    max-width: none;
+}
+.nivo-main-image {
+    display: block !important;
+    position: relative !important; 
+    width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    border:0;
+    padding:0;
+    margin:0;
+    z-index:6;
+    display:none;
+    background:white; 
+    filter:alpha(opacity=0); 
+    opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+    display:block;
+    position:absolute;
+    z-index:5;
+    height:100%;
+    top:0;
+}
+.nivo-box {
+    display:block;
+    position:absolute;
+    z-index:5;
+    overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+    position:absolute;
+    left:15px;
+    bottom: 15px;
+    background-color: #31393f;
+    color:#fff;
+    width:auto;
+    z-index:8;
+    padding: 5px 10px;
+    overflow: hidden;
+    display: none;
+    -moz-opacity: 0.8;
+    filter:alpha(opacity=8);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.nivo-caption p {
+    padding:5px;
+    margin:0;
+}
+.nivo-caption a {
+    display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+.nivo-caption h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #fff;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+    z-index:9;
+    cursor:pointer;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+    text-align:center;
+    padding: 15px 0;
+}
+.nivo-controlNav a {
+    cursor:pointer;
+}
+.nivo-controlNav a.active {
+    font-weight:bold;
+}
+
+.nivo-wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.nivo-wrapper .nivo-directionNav{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 20;
+
+    width: 50px;
+    height: 110px;
+    margin-top: -56px;
+}
+
+.nivo-wrapper .nivo-directionNav a{
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: left;
+    background-color: rgba(49, 57, 63, 0.5);
+    
+    transition: background-color 0.2s ease-in-out 0s;
+    -webkit-transition: background-color 0.2s ease-in-out 0s;
+    -moz-transition: background-color 0.2s ease-in-out 0s;
+    -ms-transition: background-color 0.2s ease-in-out 0s;
+    -o-transition: background-color 0.2s ease-in-out 0s;
+}
+
+.nivo-nextNav{
+    text-indent: -9999px;
+    background-image: url('../img/nivo-next-nav.png');
+    background-position: center;
+    background-repeat: no-repeat;  
+    margin-top: 2px;
+}
+
+.nivo-prevNav{
+    right: 0;
+    text-indent: -9999px;
+    background-image: url('../img/nivo-prev-nav.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nivo-controlNav {
+	text-align: center;
+	padding: 0;
+	position: relative;
+	z-index: 10;
+        top: -20px;
+}
+.nivo-controlNav a {
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:url('../img/bullets.png') no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.nivo-controlNav a.active {
+	background-position:0 100%;
+}
+
+.slider-full{
+    margin-bottom: 80px;
+}
+
+.events-slider .nivo-caption{
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('../img/nivo-events.png');
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    padding: 20px 20px 20px 70px;
+}
+
+.events-slider .nivo-caption h4{
+    color: #fff;
+    text-transform: none;
+    margin-bottom: 5px;
+}
+
+.events-slider .nivo-caption p{
+    padding: 0;
+    color: #ccc;
+}
+
